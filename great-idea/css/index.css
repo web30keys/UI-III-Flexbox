@@ -168,3 +168,49 @@ footer section {
 	height: 200px;
 	width: 200px;
 }
+
+.full-width-section {
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+	margin-bottom: 40px;
+}
+
+.full-width-section img {
+	margin-bottom: 40px;
+}
+.services-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 2px solid black;
+	margin-bottom: 40px;
+
+}
+.services-article {
+	width: 425px;
+	height: 250px;
+	background-color: #eeeeee;
+	border: 1px solid black;
+	padding: 20px;
+	margin-bottom: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.services-article a {
+	border: 1px solid black;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	height: 30px;
+	background-color: white;
+	color: black;
+	font-size: .75rem;
+}
+
+.top-section img {
+	width: 425px;
+}
